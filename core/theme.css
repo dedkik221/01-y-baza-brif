@@ -1,0 +1,36 @@
+:root {
+  --c-bg: #F6F2EB;
+  --c-surface: #FFFFFF;
+  --c-surface-alt: #EEF1F6;
+  --c-ink: #1C1C1C;
+  --c-ink-muted: #5B6470;
+  --c-accent: #0F766E;
+  --c-accent-strong: #115E59;
+  --c-accent-contrast: #FFFFFF;
+  --c-warn: #D97706;
+  --c-border: #D9DEE6;
+  --c-knowledge-bg: #0F172A;
+  --c-knowledge-ink: #E2E8F0;
+
+  --font-heading: "Space Grotesk", "IBM Plex Sans", system-ui, sans-serif;
+  --font-body: "IBM Plex Sans", system-ui, sans-serif;
+
+  --radius-card: 10px;
+  --radius-input: 8px;
+
+  --shadow-sm: 0 2px 8px rgba(16, 24, 40, 0.08);
+  --shadow-md: 0 10px 30px rgba(16, 24, 40, 0.12);
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 40px;
+  --space-8: 56px;
+  --space-9: 72px;
+
+  --container-max: 1200px;
+  --container-pad: 24px;
+}
