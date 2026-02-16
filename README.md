@@ -5,7 +5,7 @@
 Публичные ссылки
 - Репозиторий: `https://github.com/dedkik221/01-y-baza-brif`
 - Публичный доступ (GitHub Pages): `https://dedkik221.github.io/01-y-baza-brif/`
-- Новая статья: `https://dedkik221.github.io/01-y-baza-brif/knowledge/graphics-transfer-file-organization`
+- Новая статья: `https://dedkik221.github.io/01-y-baza-brif/knowledge/photo-video-production-methodology`
 
 Локальный запуск
 - Рекомендуется статический сервер с fallback на index.html.
