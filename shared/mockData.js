@@ -514,6 +514,7 @@ export const knowledgeArticles = [
     id: 4,
     title: "Методика работы: фото- и видеопроизводство",
     slug: "photo-video-production-methodology",
+    aliases: ["photo-video-production-methododology"],
     category: "production",
     updated_at: "2026-02-16",
     summary:

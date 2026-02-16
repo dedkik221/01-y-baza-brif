@@ -10,5 +10,12 @@ export async function getKnowledgeList() {
 }
 
 export async function getKnowledgeArticle(slug) {
-  return knowledgeArticles.find((item) => item.slug === slug) || null;
+  const normalizedSlug = (slug || "").trim().toLowerCase();
+  return (
+    knowledgeArticles.find(
+      (item) =>
+        item.slug === normalizedSlug ||
+        (Array.isArray(item.aliases) && item.aliases.includes(normalizedSlug))
+    ) || null
+  );
 }
